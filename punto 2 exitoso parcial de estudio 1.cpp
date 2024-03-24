@@ -24,6 +24,7 @@ main()
 			pasajerosaca=pasajerosaca-11;
 			pasajerost=pasajerost+11;
 		}
+		cout<<"Hola como estas brouuuuuuuuuuuuuuuu"
 		if(pasajerosaca>=7)
 		{
 			campero++;
