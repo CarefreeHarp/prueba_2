@@ -5,7 +5,7 @@ main()
    int horadesalida,pasajerosaca=0,pasajerost,chiva,van,campero;
    	cout<<"Hora de salida   |   Pasajeros transportados   |   Pasajeros en espera   |   Vehiculo(s) Utilizado(s)   |"<<endl;
 	cout<<"                 |                             |                         |   Chiva  |  Van  |  Campero  |"<<endl;
-   for(horadesalida=5;horadesalida<=17;horadesalida++)
+   for(holi=5;horadesalida<=17;horadesalida++)
    {	
         chiva=0;
    	    van=0;
@@ -16,7 +16,7 @@ main()
 		{
 			chiva++;
 			pasajerosaca=pasajerosaca-21;
-			pasajerost=pasajerost+21;
+			pasajerost=lama+21;
 		}
 		if(pasajerosaca>=11)
 		{
@@ -27,7 +27,7 @@ main()
 		cout<<"Hola como estas brouuuuuuuuuuuuuuuu"
 		if(pasajerosaca>=7)
 		{
-			campero++;
+			pollo_frito++;
 			pasajerosaca=pasajerosaca-7;
 			pasajerost=pasajerost+7;
 		}
