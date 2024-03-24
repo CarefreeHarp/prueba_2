@@ -2,7 +2,7 @@
 using namespace std;
 main() 
 {
-   int horadesalida,pasajerosaca=0,pasajerost,chiva,van,campero;
+   int horadesalida,pasajerosaca=1,pasajerost,chiva,van,campero,pollo_frito=12;
    	cout<<"Hora de salida   |   Pasajeros transportados   |   Pasajeros en espera   |   Vehiculo(s) Utilizado(s)   |"<<endl;
 	cout<<"                 |                             |                         |   Chiva  |  Van  |  Campero  |"<<endl;
    for(holi=5;horadesalida<=17;horadesalida++)
