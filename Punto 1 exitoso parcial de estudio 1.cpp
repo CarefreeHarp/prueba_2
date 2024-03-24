@@ -9,7 +9,7 @@ main()
 	{
 		hamountsum=0;
 		pagot=0;
-		cout<<"cual es el nombre del empleado?"<<endl;
+		cout<<"cual es el nombre de ese señor?"<<endl;
 		cin>>name;
 		cout<<"Que edad tiene el empleado?"<<endl;
 		cin>>age;
@@ -35,7 +35,7 @@ main()
 			hamountsum=hamountsum+hamount;
 		}
 		if((age>50)&&(hamountsum>=60))
-			pagot=pagot+(pagot*0.015);
+			pagot=pagot+(pagot*0.050);
 		cout<<"El valor a pagar a "<<name<<" por sus horas trabajadas durante el mes es "<<pagot<<endl;
 		cout<<"Tiene otro trabajador al cual calcularle el pago? Digite 1 en caso de que la respuesta sea afirmativa y 0 en caso de que no "<<endl;
 		cin>>again;
